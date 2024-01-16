@@ -1,6 +1,8 @@
 //async process - where multiple users dont have to wait for long task 
 //It read simultaneously
-
+//First it will execute every imediate blocks of codes
+//and then it will executes callback functions 
+//until then callback functions are offloaded
 const { readFile, writeFile } = require('fs')
 
 console.log("1.start");

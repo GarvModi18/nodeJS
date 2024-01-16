@@ -1,5 +1,5 @@
 const {readFileSync , writeFileSync }= require('fs')
-
+//file system
 //sync reads whole code line by line
 
 console.log("1.start");
