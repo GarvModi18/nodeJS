@@ -6,8 +6,8 @@ const server = http.createServer((req, res) => {
   }
   if (req.url === '/about') {
     // blocking code
-    for (let i = 0; i < 1000; i++) {
-      for (let j = 0; j < 1000; j++) {
+    for (let i = 0; i < 500; i++) {
+      for (let j = 0; j < 500; j++) {
         console.log(`${i} ${j}`)
       }
     }
